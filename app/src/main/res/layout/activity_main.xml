@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.myapp9.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog OK"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="click"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog YES-NO"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:onClick="click2"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog YES-NO-CANCEL "
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:onClick="click3"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog Items"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:onClick="click4"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog MultiChoice"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:onClick="click5"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog SingleChoice"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:onClick="click6"/>
+</LinearLayout>
